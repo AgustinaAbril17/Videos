@@ -1,0 +1,35 @@
+Para usarlo correctamente hay que instalar una libreria  con la terminal CMD o de Poweshell:
+
+para saber si ya la tenés ingresa la siguiente linea de comando
+yt-dlp --version
+
+si te aparece una fecha quiere decir que ya la tenés, sino ingresa la siguiente linea de comando
+pip install yt-dlp
+
+cuando termine de descargar e instalar vas a ir a la barra de búsqueda de windows, vas a buscar el panel de
+control y vas a buscar en la barra de búsqueda de ahí "Editar las variables de entorno del sistema". 
+
+Se abrirá un panel, vas a buscar y clickear el boton que dice "Variables de entorno...".
+El panel que se abrió tiene 2 secciones, un cuadro arriba y otro abajo, usaremos el cuadro de abajo llamado "Variables del sistema". 
+Vas a buscar la opcion que dice "Path", la clickeas una sola vez y clickea el boton "Editar". 
+
+Ahí vas a clickear el boton "Nuevo" y vas a pegar la direccion de destino de la librería que descargaste. 
+"Pero... dónde está la librería?" te preguntarás.
+
+No te preocupes, en la terminal vas a escribir la siguiente linea de comando
+where yt-dlp 
+
+te deberá aparecer algo como
+"C:\Users\elNombreDeTuUsuario\AppData\Local\Programs\Python\Python312\Scripts\yt-dlp.exe"
+
+Copias y pegas (O escribis a mano si no te deja copiar), clickeas el boton "Aceptar" a todos los paneles
+abiertos y listo! ya tenés la librería descargada e instalada
+
+Cuando importes el archivo .py y lo ejecutes directamente, el video se descargará en la carpeta donde estén 
+estos archivos si importas la carpeta entera.
+
+Dentro del código hay comentarios para cambiar el tipo de archivo que quieras descargar.
+
+Solo se puede descargar video con audio, video solo o audio solo.
+
+Enjoy!!!
